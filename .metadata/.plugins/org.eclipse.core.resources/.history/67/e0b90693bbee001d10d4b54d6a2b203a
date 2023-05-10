@@ -1,0 +1,27 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		
+		
+		Scanner leia = new Scanner (System.in);
+
+		double horatrabalhada;
+		
+		
+		System.out.println("Quanto você ganha por hora trabalhada:");
+		horatrabalhada = leia.nextDouble();//Campo aonde chama trazer apenas numero.	
+		
+		
+		
+		
+		System.out.print("A media é:"+(horatrabalhada)/30 );
+		leia.close();
+		
+	}
+
+}

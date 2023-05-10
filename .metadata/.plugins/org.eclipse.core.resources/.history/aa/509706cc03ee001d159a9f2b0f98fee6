@@ -1,0 +1,54 @@
+package principal;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		/*Scanner leia = new Scanner (System.in);
+		
+		int numero;
+		int numero2;
+		
+		
+		System.out.println("Primeiro Número da Operação de adição");
+		numero = leia.nextInt();//Campo aonde chama trazer apenas numero.
+	
+		
+		System.out.println("Primeiro Segundo Número Operação de adição");
+		numero2 = leia.nextInt();//Campo aonde chama trazer apenas numero
+	
+		System.out.println("Resultado da Operação:" + (numero+numero2));*/
+		
+		
+		
+		 
+		
+		 
+		
+		 
+			
+				
+				double[] notas = new double[4];
+				double soma = 0.0;
+				
+				for (int i = 0; i <= 3; i++) {
+					notas[i] = Double.parseDouble(
+							JOptionPane.showInputDialog(
+									"Digite " + (i+1) + "a nota: "));
+					soma += notas[i];
+				}
+				
+				JOptionPane.showMessageDialog(null, "Sua média é " + soma/4);
+			}
+		
+		
+		
+	}
+
+

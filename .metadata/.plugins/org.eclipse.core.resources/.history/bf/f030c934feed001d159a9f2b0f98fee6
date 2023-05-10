@@ -1,0 +1,24 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner (System.in);
+		
+		int numero = 10;
+		
+		System.out.println("Informe um numero");
+		numero = leia.nextInt();//Campo aonde chama trazer apenas numero.
+		leia.nextLine();
+
+		System.out.println("o Numero informado foi:" + (numero);
+		
+		
+		
+		
+	}
+
+}

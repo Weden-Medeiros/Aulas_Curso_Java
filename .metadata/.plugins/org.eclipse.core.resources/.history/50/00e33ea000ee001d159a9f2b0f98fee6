@@ -1,0 +1,27 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner leia = new Scanner (System.in);
+		
+		int numero;
+		
+		System.out.println("Primeiro Número da Operação de adição");
+		numero = leia.nextInt();//Campo aonde chama trazer apenas numero.
+	
+		
+		System.out.println("Primeiro Segundo Número Operação de adição");
+		numero = leia.nextInt();//Campo aonde chama trazer apenas numero
+	
+		System.out.println("Resultado da Operação:" +(numero+numero));
+		
+		
+	}
+
+}
