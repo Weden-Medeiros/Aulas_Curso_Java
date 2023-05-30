@@ -10,14 +10,14 @@ public class Program
 		        Scanner sc = new Scanner(System.in);
 		        int[] numeros = new int[51];
 		        
-		        for (int i = 1; i < 51; i++) 
+		        for (int i = 1; i < 50; i++) 
 		        {
 		            System.out.print("Digite o número " + (i) + ": ");
 		            numeros[i] = sc.nextInt();
 		        }
 		        
 		        
-		        for (int i = 1; i < 51; i++) 
+		        for (int i = 1; i < 50; i++) 
 		        {
 		            if (numeros[i] % 2 == 0) 
 		            {
