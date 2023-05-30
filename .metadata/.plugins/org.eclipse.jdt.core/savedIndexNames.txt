@@ -19,12 +19,13 @@ INDEX VERSION 1.131+C:\Users\Aluno Noite\Documents\aula_java_nortuno\.metadata\.
 3498988007.index
 411289778.index
 429554328.index
-1865797976.index
 1869336356.index
+1865797976.index
 2482153112.index
-934534992.index
 3129886531.index
+934534992.index
 2763845579.index
+2367783050.index
 1498742238.index
 3062950549.index
 3282891444.index
