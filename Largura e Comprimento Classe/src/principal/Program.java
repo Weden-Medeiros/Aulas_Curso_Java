@@ -1,8 +1,8 @@
 package principal;
+
 import java.util.Scanner;
+
 import entites.AreaTerreno;
-
-
 public class Program
 {
 
@@ -19,7 +19,6 @@ public class Program
 
 		        terreno.retornaArea(largura, comprimento);
 		        System.out.println("A área do terreno é: " + terreno.area+ " m²");
-
 		        sc.close();
 		    }
 }
