@@ -21,8 +21,27 @@ public class Program
 		                triangulo.lado3 = lado3;
 		                triangulo.verificarTipoTriangulo();
 		                scanner.close();
- }
+	}
+	
 }
 		
-			
-
+									////// Parte do Professor ///////	
+						/*public static void main(String[] args) 
+						{
+						
+							Scanner sc = new Scanner (system.in);
+							
+							Triangulo triangulo = new Triangulo();
+							
+							System.out.println("Entre com o valor do x:");
+							int x = sc.nextInt();
+							System.out.println("Entre com o valor do y:");
+							int y = sc.nextInt();
+							System.out.println("Entre com o valor do z:");
+							int z = sc.nextInt();
+							
+							triangulo.retornatipoTriangulo(x, y, z);
+							System.out.println(triangulo.tipoTriangulo);
+							sc.close();
+						}
+}*/

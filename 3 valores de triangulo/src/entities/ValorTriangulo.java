@@ -22,3 +22,30 @@ public class ValorTriangulo
 	        }
     }
 }
+							//////  Parte do Professor     //////
+				/*public class ValorTriangulo 
+				{
+					 public String tipoTriangulo;
+					 
+					 public String retornatipoTriangulo (int x, int y, int z)
+					 {
+						 if( x == y && y == z) 
+						 {
+							 tipoTriangulo = "Triangulo equilátero" ;
+							 return tipoTriangulo
+						 }
+						 else if (x == y || x == z || y == z) 
+						 {
+					            tipoTriangulo = "Triângulo é isósceles";
+					            return tipoTriangulo;
+					        }
+						 else 
+					        {
+					            tipoTriangulo = "Triângulo é isósceles";
+					            return tipoTriangulo;
+					        }
+					 }
+					 
+					 
+					 
+				}*/
