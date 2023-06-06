@@ -8,14 +8,7 @@ public class Conta {
 	private double saldo;
 	private String titular;
 
-	public void depositar(double valorDepositado) {
-		saldo += valorDepositado;
-	}
-
-	public void sacar(double valorSacado) {
-		saldo -= valorSacado;
-	}
-
+	
 	public int getNumeroConta() {
 		return numeroConta;
 	}
@@ -51,4 +44,20 @@ public class Conta {
 	public double getSaldo() {
 		return saldo;
 	}
+	public void depositar(double valorDepositado) {
+		saldo += valorDepositado;
+	}
+
+	public void sacar(double valorSacado) {
+		saldo -= valorSacado;
+	}
+
+	/*public String toString () 
+	{
+		return "Aqui vai texto";
+	}*/
+	public String toString() {
+		return "Titular " + titular + "\nAgencia: "+ agencia+ "\nConta: "+ numeroConta+ "\nSaldo: " +saldo;
+	}
+	
 }
