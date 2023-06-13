@@ -2,16 +2,24 @@ package entities;
 
 public class Produto {
 	
-    private String descricao;
+   
+
+	private String descricao;
     private int quantidade;
     private double preco;
    // private double valorTotalEmEstoque;
+    
+    
+  
+   
     
     public String getDescricao() {
         return descricao;
     }
     
-    public void setDescricao(String descricao) {
+  
+
+	public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
   

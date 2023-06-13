@@ -33,7 +33,6 @@ public class Program
 	        produto.removerProduto(sc.nextInt());
 	        System.out.println(produto);
 	        
-	        System.out.println(produto);
 	        
 	        /*
 	        /// Dados do estoque ///
