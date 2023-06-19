@@ -11,4 +11,5 @@
     <fullyQualifiedTypeName name="entities.Produto"/>
     <fullyQualifiedTypeName name="entities.Livro"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="entities.Pessoa"/>
 </qualifiedTypeNameHistroy>
